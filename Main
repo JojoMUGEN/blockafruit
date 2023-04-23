@@ -925,29 +925,46 @@ function Script()
     -- CODES
 
     CodesSection:NewButton("AutoRedeem", "Redeems all current codes", function()
+
+        local args = {
+            [1] = "15B_BESTBROTHERS"
+        }
+
+    game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer(unpack(args))
+
     local args = {
-        [1] = "UPDATE1"
+        [1] = "Sub2CaptainMaui"
     }
 
     game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer(unpack(args))
 
     local args = {
-        [1] = "10KLIKES"
+        [1] = "DEVSCOOKING"
     }
 
     game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer(unpack(args))
 
     local args = {
-        [1] = "20KLIKES"
+        [1] = "NOOB_REFUND"
     }
 
     game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer(unpack(args))
-
+    
+    
+    
     local args = {
-        [1] = "RELEASE"
+        [1] = "Magicbus"
     }
 
     game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer(unpack(args))
+    
+    
+    local args = {
+        [1] = "Enyu_is_Pro"
+    }
+
+    game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer(unpack(args))
+    
     end)
 end
 Script()
