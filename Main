@@ -930,25 +930,25 @@ function Script()
             [1] = "15B_BESTBROTHERS"
         }
 
-    game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer(unpack(args))
+    game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(unpack(args))
 
     local args = {
         [1] = "Sub2CaptainMaui"
     }
 
-    game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer(unpack(args))
+    game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(unpack(args))
 
     local args = {
         [1] = "DEVSCOOKING"
     }
 
-    game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer(unpack(args))
+    game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(unpack(args))
 
     local args = {
         [1] = "NOOB_REFUND"
     }
 
-    game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer(unpack(args))
+    game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(unpack(args))
     
     
     
@@ -956,14 +956,14 @@ function Script()
         [1] = "Magicbus"
     }
 
-    game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer(unpack(args))
+    game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(unpack(args))
     
     
     local args = {
         [1] = "Enyu_is_Pro"
     }
 
-    game:GetService("ReplicatedStorage").Remotes.Codes:InvokeServer(unpack(args))
+    game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(unpack(args))
     
     end)
 end
