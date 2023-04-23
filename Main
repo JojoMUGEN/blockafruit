@@ -1,6 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Player = game.Players.LocalPlayer
 local Tweentime = 0
+local Character = nil
 --Character.Name = "TheBootyTicklingBandit"
 --game.Players.LocalPlayer.Name = "TheBootyTicklingBandit"
 
