@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Character = game.workspace.Characters.BloxFruitsDeviant
+local Character = nil
 local Player = game.Players.LocalPlayer
 local Tweentime = 0
 --Character.Name = "TheBootyTicklingBandit"
